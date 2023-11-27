@@ -2,7 +2,7 @@ package ru.tropinos.tropijgit4music.utils.factories;
 
 import org.eclipse.jgit.lib.Repository;
 
-public class MacOSExtendedGitRepositoryFactory extends AbstractGitRepositoryFactory {
+public class MacOSGitRepositoryFactory extends GitRepositoryFactory {
     @Override
     public void createDirectory() {
 
